@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<style>
+    * {
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+        list-style: none;
+        text-decoration: none;
+    }
+
+    .container {
+        width:1400px;
+        margin: 0 auto;
+    }
+
+    .visual {
+        height:100vh;
+        width:100%;
+        position: relative;
+
+    }
+.visual2 {
+height:200vh;
+width:100%;
+position: relative;
+}
+
+    body > div > img {
+        width:100%;
+        height: 100vh;
+        object-fit: cover;
+
+        filter: brightness(80%);
+
+    }
+
+    .box-group {
+        position: absolute;
+        left:50%; top:50%;
+        transform: translate(-50%,-50%);
+        display: grid;
+
+        grid-template-columns: repeat(5,200px);
+        grid-template-rows: 200px;
+        gap:50px;
+        z-index: 2;
+    }
+
+    .box {
+        border-radius: 50%;
+
+        background-color: #ddd;
+    }
+
+    .box > a > img {
+        width:100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+
+    .box a {
+        width:100%;
+        height: 100%;
+        color:#fff;
+    }
+
+    .box p {
+        text-align: center;
+    }
+
+    .title {
+        position: absolute;
+
+        top:27%;
+        left:50%;
+        transform: translate(-50%,-50%);
+
+        text-align: center;
+    }
+
+    .title p {
+        color:#fff;
+    }
+
+    .title p:nth-child(1) {
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+
+    .title p:nth-child(2) {
+        color:#f4f4f4a4;
+        margin-top:10px;
+
+    }
+
+    .title-t {
+        position: absolute;
+        top:13%;
+        left:50%;
+        transform: translate(-50%,-50%);
+    }
+
+    .p-img img{
+        width:100%;
+        height: 100%;
+        position: absolute;
+        object-fit: cover;
+    }
+
+    .menu-title {
+        position: absolute;
+        top:20%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        width:50%;
+        padding: 9px;
+        background-color: #fff;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.2);
+    }
+    .menu-title a {
+        transition: .4s;
+    }
+
+    .menu-title a:hover {
+        font-weight: bold;
+    }
+
+    .section-group {
+        position: absolute;
+        top:30%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+
+    }
+
+    .sec-box:nth-child(1) {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sec-box:nth-child(2) {
+        display:flex;
+        flex-direction: column;
+    }
+
+    .min-b {
+        display: flex;
+    }
+
+    .min-b:nth-child(1) {
+        margin-bottom: 400px;
+    }
+
+	.min-b:nth-child(2) {
+margin-bottom: 3000px;
+}
+
+    .produce-t {
+        margin-left: 100px;
+    }
+    .produce-1t {
+      margin-left: 800px;
+    }
+
+    .p-img {
+        width:150px;
+        background-color: #fff;
+        height:150px;
+        position: absolute;
+        top:40%;
+        left:50%;
+    }
+
+    .side-img {
+        background-color: #ddd;
+        width:400px;
+        height: 150px;
+        position: relative;
+    }
+
+    .side-img img {
+        position: absolute;
+        width:100%;
+        height: 100%;
+    }
+
+    .side-t {
+        margin-right: 800px;
+    }
+
+    .one-img {
+        width:150px;
+        height:150px;
+        background-color: #fff;
+        position: relative;
+        left:-10%;
+    }
+
+    .one-img img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .one-text {
+        margin-top: 20px;
+    }
+
+    .title-t {
+        background-color: #fff;
+    padding: 13px 24px;
+    border-radius: 9px;
+    font-weight: bold;
+    }
+
+    .main-name {
+        position: absolute;
+    top: 10%;
+    left: 13%;
+    color: #fff;}
+    </style>
+<body>
+<div class ="visual">
+        <img src="912018.jpg" alt="">
+<div class ="visual2">
+        <img src="912018.jpg" alt="">
+</div>
+<div class="container">
+<div class="title-t">���� ������ ��õ��</div>
+<div class="section-group">
+                <div class="sec-box">
+                    <div class="min-b">
+                    <div class="side-img"><img src="����.jpg" alt=""></div>
+                    <div class="produce-t" style="color:#fff;">������ ���ڼ��� ���� ������ �� �̻� �ɰ� �� ���� ���ڷ� �Ǿ� ������ ������ ������ �ٸ��� ũ���� ������ �޶����� ���� ������ ���� ������ ȭ�� ������ ���嵹�� �˴ϴ�. ������ ���ڼ��� ���� ������ �⺻ ���ڴ� ���ڶ��� ������ �ڸ� ���� �Ǿ����ϴ�. ������ ���ڸ� �� �̻� �ɰ� �� ���� ���� ���� ���� �������� �����Ͽ���, �̴� ������ ���� �����̶��� �� �� �ֽ��ϴ�.
+                        </div>
+                        </div>
+<div class="section-group">
+                <div class="sec-box:nth-child(1)">
+                    <div class="min-b:nth-child(1)">
+                    <div class="p-img"><img src="�轼.jpg" alt=""></div>
+                    <div class="produce-t" style="color:#fff;">���� �ȿ� ���ڰ� ���� �ִ� ����. ���ڴ� ���������� �߼��̹Ƿ� ���� ���� �����ϰ� �־��� �Ѵ�. ������ �� ���� �ۿ��� ������ó�� ���� �ִٴ� ���� ǥ���� ���ͼ� ���ڰ� ������ ���� �����Ǿ� �ִ� ���� �λ��� �ֳ� �����δ� ���ڰ� �� ���¿��� ������ �� �ִ� �����̴�.
+                        </div>
+</div>
+
+<div class="section-group">
+                <div class="sec-box:nth-child(2)">
+                    <div class="min-b:nth-child(2)">
+                    <div class="one-img"><img src="�����۵�.png" alt=""></div>
+                    <div class="produce-t" style="color:#fff;">�����۵� ���� ������ ���Ͻ�Ʈ �����۵尡 1911�� ������ ���� �����̴�. �����۵尡 �� ���� ������ �����ϱ� �������� ������ �� �轼�� ������ Ǫ���� �����ִ� ������ó�� �����ϵ��� �л��Ǿ� �ִ� ���� ������ �θ� ���� �ް� �־���. �׷��� �����۵��� 1909�� ������ ���̰�-������ ���� �� �������� 1911�⿡ ���ο� ���ڸ����� �����Ͽ���. �׸��� �� �����۵� ���ڸ����� �����ϰ� ���ڿ� �����ִٴ� �轼�� ������ Ʋ������ �����־���.
+                        </div>
+</div>
+
+
+</body>
+</html>
